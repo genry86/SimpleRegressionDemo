@@ -1,0 +1,17 @@
+# Node.js
+.env
+
+# Python
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# JetBrains IDEs
+.idea/
+
+# Data
+dataset/train

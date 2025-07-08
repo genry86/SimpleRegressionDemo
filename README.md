@@ -1,37 +1,48 @@
-# 📦 Fast Api - Simple demo
+# 📦 Computer Vision demo
 
-Simple demo WEB project based on fast api + Vue
+Simple demo of Machine Learning - regression. 
+Neural network model predicts coords of the light rect center. 
+Backbon implemented with simple CNN and head is implemented with Liner layers.
+
 
 ---
 
 ## 🚀 Features
 
-- ⚙️ Fast Api
-- 🔐 SQLte
-- 📡 Fast API integration
+- Pytorch. "pt" folder.
+- Tensorflow. "tf" folder.
+- Pillow. Working with images
+- Numpy. To work with objects and arrays.
+- Json. 
+- Matplotlib. to visualize resaults 
+- tqdm. to show progress bar for training process.
+- CNN.
+- Checkpoints. Used to restore last epoch if something happened within train process.
+- ReduceLROnPlateau. Used to dynamically change Learning_rate.
+- stop_counter. Used to stop training if training-metrics isn't improving. 
 
 ---
 
 ## 🖼 Screenshots
 
-### Login form
+### Project files
 
-![Login/Registration Screenshot](images/login-form.png)
+![Screen1](images/folder_structure.png)
 
-### Fast Api
+### Training Source image
 
-![Auth Screenshot](images/fast-api.png)
+![Screen2](images/reg_image.png)
 
 ---
 
 ## 🛠 Setup
 
 ```bash
-git clone https://github.com/genry86/FastApiDemo.git
-cd FastApiDemo
-pip install fastapi
-pip install uvicorn
-uvicorn main:app --reload
-cd public
-npm install
-yarn serve
+
+git clone https://github.com/genry86/SimpleRegressionDemo.git
+cd SimpleRegressionDemo
+pip3 install -r requirements.txt
+python dataset_prepare.py # to generate training images
+
+Use "pt" folder to work with pytorch. 
+User "tf" to work with tensorflow.
