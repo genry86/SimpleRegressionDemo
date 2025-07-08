@@ -2,7 +2,7 @@
 
 Simple demo of Machine Learning - regression. 
 Neural network model predicts coords of the light rect center. 
-Backbon implemented with simple CNN and head is implemented with Liner layers.
+Backbone implemented with simple CNN and head is implemented with Liner layers.
 
 
 ---
